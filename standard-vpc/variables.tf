@@ -1,0 +1,16 @@
+variable "project_id" {}
+variable "network_name" {}
+variable "base_london_subnet_cidr" {}
+variable "base_belgium_subnet_cidr" {}
+variable "k8s_nodes_london_01" {}
+variable "k8s_svcs_london_01" {}
+variable "k8s_pods_london_01" {}
+variable "k8s_nodes_london_02" {}
+variable "k8s_svcs_london_02" {}
+variable "k8s_pods_london_02" {}
+variable "k8s_nodes_belgium_01" {}
+variable "k8s_svcs_belgium_01" {}
+variable "k8s_pods_belgium_01" {}
+variable "k8s_nodes_belgium_02" {}
+variable "k8s_svcs_belgium_02" {}
+variable "k8s_pods_belgium_02" {}
